@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { getCharsFromApi } from '../actions/index'
 import { CharacterList } from "../components";
-
+import '../styles/App.css'
 // import actions
 
 class CharacterListView extends React.Component {
